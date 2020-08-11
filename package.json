@@ -1,0 +1,20 @@
+{
+  "name": "best_deals",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run start-react\" \"npm run start-express\"",
+    "start-react": "cd React && npm start",
+    "start-express": "cd Express && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanjaw/best_deals.git"
+  },
+  "author": "Sean Jaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanjaw/best_deals/issues"
+  },
+  "homepage": "https://github.com/seanjaw/best_deals#readme"
+}
