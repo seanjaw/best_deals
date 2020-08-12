@@ -1,11 +1,10 @@
 {
-  "name": "backend",
+  "name": "best-deals-express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "start-nodemon": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
