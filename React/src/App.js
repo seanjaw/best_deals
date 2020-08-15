@@ -1,11 +1,10 @@
 import React from 'react';
+import Routes from './routing/';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        hi
-      </header>
+      <Routes />
     </div>
   );
 }
